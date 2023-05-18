@@ -15,9 +15,10 @@ L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
 // TODO: fix iconAnchor
 L.Marker.prototype.options.icon = L.icon({
   iconUrl,
+  iconRetinaUrl: iconUrl,
   shadowUrl: "",
   iconSize: [46, 56],
-  iconAnchor: [-56, 23],
+  iconAnchor: [23, 56],
   popupAnchor: [0, 0],
   tooltipAnchor: [0, 0],
   shadowSize: [0, 0],

@@ -16,12 +16,12 @@
   }
 
   header {
-    background: url("~/src/assets/img/pattern-bg-mobile.png");
+    background: url("~/src/assets/img/pattern-bg-mobile.png?as=webp");
     // Keep this because background will be merged to a single line in production
     @apply bg-cover bg-center bg-no-repeat;
 
     @screen md {
-      background: url("~/src/assets/img/pattern-bg-desktop.png");
+      background: url("~/src/assets/img/pattern-bg-desktop.png?as=webp");
       // Keep this because background will be merged to a single line in production
       @apply bg-cover bg-center bg-no-repeat;
     }

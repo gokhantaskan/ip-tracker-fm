@@ -17,7 +17,7 @@ This is a solution to the [IP address tracker challenge on Frontend Mentor](http
 
 ### Links
 
-<!-- - Solution URL: [Add solution URL here](https://your-solution-url.com) -->
+- Solution URL: [Github](https://github.com/gokhantaskan/ip-tracker-fm)
 
 - Live Site URL: [Netlify](https://idyllic-twilight-1b698a.netlify.app/)
 
@@ -33,10 +33,8 @@ This is a solution to the [IP address tracker challenge on Frontend Mentor](http
 
 The problems mentioned below can be solved with a little more time and effort, but I'm not going to do it for this project.
 
-- I created a function to calculate the results card's `height` and set the parent `padding-bottom` to position it accordingly, but -of course- it's not ideal. I'd appreciate any help on this.
+- I created a function to calculate the results card's `height` and set the parent `padding-bottom` to position it accordingly, but it's not ideal. I'd appreciate any help on this.
 - NProgress is installed but not showing the progress bar.
-- Husky and Lint-staged can be added.
-- Leaflet marker is not centered on the map.
 
 ### Useful resources
 

@@ -15,7 +15,7 @@ document.querySelector("form")?.addEventListener("submit", async event => {
     await getData(searchValue)
       .then(data => {
         if (data) setUiWithData(data);
-        searchInput.value = "";
+        // searchInput.value = "";
       })
       .catch(err => {
         alert(err.message);
