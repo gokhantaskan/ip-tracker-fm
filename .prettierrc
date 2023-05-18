@@ -1,0 +1,13 @@
+{
+  "printWidth": 100,
+  "arrowParens": "avoid",
+  "semi": true,
+  "singleQuote": false,
+  "singleAttributePerLine": true,
+  "bracketSameLine": false,
+  "htmlWhitespaceSensitivity": "css",
+  "importOrder": ["^components/(.*)$", "^[./]"],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true,
+  "plugins": ["prettier-plugin-tailwindcss"]
+}

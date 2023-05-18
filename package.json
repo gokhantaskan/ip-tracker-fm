@@ -1,0 +1,41 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "description": "",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "keywords": [],
+  "author": "Gokhan Taskan",
+  "license": "ISC",
+  "scripts": {
+    "start": "parcel src/*.html --no-cache",
+    "build": "run-s type-check build-only",
+    "build-only": "parcel build src/*.html",
+    "preview": "http-server dist -o -c-1 -p 4321",
+    "type-check": "tsc --noEmit",
+    "clear": "rm -rf .parcel-cache dist",
+    "format": "prettier . --write -l -u --no-error-on-unmatched-pattern --ignore-path .gitignore"
+  },
+  "devDependencies": {
+    "@parcel/transformer-inline-string": "^2.8.3",
+    "@parcel/transformer-sass": "^2.8.3",
+    "@parcel/transformer-typescript-tsc": "^2.8.3",
+    "@trivago/prettier-plugin-sort-imports": "^4.1.1",
+    "@types/leaflet": "^1.9.3",
+    "@types/lodash-es": "^4.17.7",
+    "@types/node": "^20.1.7",
+    "@types/nprogress": "^0.2.0",
+    "http-server": "^14.1.1",
+    "npm-run-all": "^4.1.5",
+    "parcel": "^2.8.3",
+    "posthtml-include": "^1.7.4",
+    "prettier": "2.8.8",
+    "prettier-plugin-tailwindcss": "^0.3.0",
+    "tailwindcss": "^3.3.2",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "leaflet": "^1.9.3",
+    "lodash-es": "^4.17.21",
+    "nprogress": "^0.2.0"
+  }
+}

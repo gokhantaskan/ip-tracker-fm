@@ -1,0 +1,27 @@
+<form
+  id="search"
+  class="flex h-[48px] w-full max-w-[500px] items-center"
+>
+  <div
+    class="h-full flex-1 rounded-l border-2 border-transparent bg-white px-4 py-2 focus-within:outline"
+  >
+    <input
+      class="h-full w-full bg-transparent outline-none placeholder-shown:text-primary-l"
+      type="search"
+      placeholder="Search for any IP address or domain"
+      required
+      aria-describedby="hint"
+    />
+  </div>
+  <button
+    class="inline-flex aspect-square h-full items-center justify-center rounded-r bg-primary text-white transition-colors hover:bg-primary-l hover:text-primary focus:bg-primary-l focus:text-primary disabled:opacity-75"
+    type="submit"
+    aria-label="Search now"
+  ></button>
+</form>
+<p
+  id="hint"
+  class="mt-2 text-sm text-white/75"
+>
+  Hint: type "findme" to get your data
+</p>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <include src="src/components/head.html"></include>
+    <title>Frontend Mentor | IP Address Tracker</title>
+  </head>
+
+  <body>
+    <div class="flex min-h-screen flex-col">
+      <header class="py-8">
+        <div class="container">
+          <div class="flex flex-col items-center justify-center">
+            <h1 class="mb-4 text-2xl font-bold text-white md:text-3xl">IP Address Tracker</h1>
+            <!-- FORM -->
+            <include src="src/components/search.html"></include>
+          </div>
+        </div>
+      </header>
+      <main class="relative flex flex-1">
+        <!-- RESULTS -->
+        <include src="src/components/results.html"></include>
+        <div
+          id="map"
+          class="z-[-1] w-full"
+        ></div>
+      </main>
+      <!-- FOOTER -->
+      <include src="src/components/footer.html"></include>
+    </div>
+    <script
+      type="module"
+      src="js/index.ts"
+    ></script>
+  </body>
+</html>

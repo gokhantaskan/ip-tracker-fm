@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-size: 16px;
+
+    @screen md {
+      font-size: 18px;
+    }
+  }
+
+  body {
+    font-size: 100%;
+  }
+
+  header {
+    background: url("~/src/assets/img/pattern-bg-mobile.png");
+    // Keep this because background will be merged to a single line in production
+    @apply bg-cover bg-center bg-no-repeat;
+
+    @screen md {
+      background: url("~/src/assets/img/pattern-bg-desktop.png");
+      // Keep this because background will be merged to a single line in production
+      @apply bg-cover bg-center bg-no-repeat;
+    }
+  }
+
+  a {
+    @apply text-blue-500 hover:underline;
+  }
+}
+
+@layer components {
+  .card {
+    &__content {
+      @apply px-4;
+
+      &__title {
+        @apply text-sm font-medium uppercase text-primary-l;
+      }
+    }
+  }
+}
