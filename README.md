@@ -34,7 +34,6 @@ This is a solution to the [IP address tracker challenge on Frontend Mentor](http
 The problems mentioned below can be solved with a little more time and effort, but I'm not going to do it for this project.
 
 - I created a function to calculate the results card's `height` and set the parent `padding-bottom` to position it accordingly, but it's not ideal. I'd appreciate any help on this.
-- NProgress is installed but not showing the progress bar.
 
 ### Useful resources
 
