@@ -19,7 +19,7 @@ This is a solution to the [IP address tracker challenge on Frontend Mentor](http
 
 - Solution URL: [Github](https://github.com/gokhantaskan/ip-tracker-fm)
 
-- Live Site URL: [Netlify](https://idyllic-twilight-1b698a.netlify.app/)
+- Live Site URL: [Netlify](https://ip-tracker-app-fm.netlify.app/)
 
 ### Built with
 
